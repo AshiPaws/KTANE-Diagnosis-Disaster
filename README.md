@@ -10,4 +10,3 @@ To get more help, join the [Keep Talking and Nobody Explodes](https://discord.gg
 =======
 # KTANE-Diagnosis-Disaster
 A KTANE bomb module centered around Two Point Hospital
->>>>>>> 969b82f731e625fa1e8647531069aba8845928f6
