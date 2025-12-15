@@ -195,6 +195,8 @@ GameObject:
   - component: {fileID: 4437767805292466}
   - component: {fileID: 114837290181552670}
   - component: {fileID: 114196787414377408}
+  - component: {fileID: 114061602507911756}
+  - component: {fileID: 114899956996025302}
   m_Layer: 0
   m_Name: Diagnosis Disaster
   m_TagString: Untagged
@@ -1870,9 +1872,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1579620051961858}
-  m_Text: 'Premature
-
-    Mummification'
+  m_Text: Illness 2
   m_OffsetZ: 0
   m_CharacterSize: 0.5
   m_LineSpacing: 1
@@ -1885,7 +1885,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 90beec8fd4dce414c81bfc4a9b0709e6, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
 --- !u!102 &102736824821621254
 TextMesh:
   serializedVersion: 3
@@ -1893,9 +1893,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1384692702090868}
-  m_Text: 'Premature
-
-    Mummification'
+  m_Text: Illness 1
   m_OffsetZ: 0
   m_CharacterSize: 0.5
   m_LineSpacing: 1
@@ -1908,7 +1906,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 90beec8fd4dce414c81bfc4a9b0709e6, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
 --- !u!102 &102872252769750008
 TextMesh:
   serializedVersion: 3
@@ -1916,9 +1914,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1788452406223498}
-  m_Text: 'Premature
-
-    Mummification'
+  m_Text: Illness 4
   m_OffsetZ: 0
   m_CharacterSize: 0.5
   m_LineSpacing: 1
@@ -1931,7 +1927,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 90beec8fd4dce414c81bfc4a9b0709e6, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
 --- !u!102 &102991973375491330
 TextMesh:
   serializedVersion: 3
@@ -1939,9 +1935,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1377779440011930}
-  m_Text: 'Premature
-
-    Mummification'
+  m_Text: Illness 3
   m_OffsetZ: 0
   m_CharacterSize: 0.5
   m_LineSpacing: 1
@@ -1954,7 +1948,99 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 90beec8fd4dce414c81bfc4a9b0709e6, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
+--- !u!114 &114061602507911756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1357071248244726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f5e194b9a4d69488d7d938b533f398, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Module: {fileID: 114837290181552670}
+  Audio: {fileID: 114899956996025302}
+  Buttons:
+  - {fileID: 114072944255708384}
+  - {fileID: 114770086350065858}
+  - {fileID: 114911402850385120}
+  - {fileID: 114772619888770992}
+  Texts:
+  - {fileID: 102736824821621254}
+  - {fileID: 102097362507791890}
+  - {fileID: 102991973375491330}
+  - {fileID: 102872252769750008}
+  Display: {fileID: 212195775787593946}
+  Illnesses:
+  - {fileID: 21300000, guid: 8073228d6293fd547bf7b805c816f981, type: 3}
+  - {fileID: 21300000, guid: 1ee41219f5d78a74ba4fe7056d885ec2, type: 3}
+  - {fileID: 21300000, guid: 54d2fa23a30a7d94394e4f6a77b60603, type: 3}
+  - {fileID: 21300000, guid: 711211866a610a041acb2a1193fc2df3, type: 3}
+  - {fileID: 21300000, guid: 7a035f4637958bb44a65fcb62b322287, type: 3}
+  - {fileID: 21300000, guid: fd2b2b437a76a374bb2e1160f8b3adbd, type: 3}
+  - {fileID: 21300000, guid: b94808879cc91fa4da28a7219a7aff6c, type: 3}
+  - {fileID: 21300000, guid: d37cf3c4d6bf20d459f57e6915f958f8, type: 3}
+  - {fileID: 21300000, guid: 0a5451d9493481f43b6a565409434bca, type: 3}
+  - {fileID: 21300000, guid: 0531aec7b1d66724faf244a44205d9d3, type: 3}
+  - {fileID: 21300000, guid: d4745ff743bbd0d41aa2a2a108ea80b1, type: 3}
+  - {fileID: 21300000, guid: c197bb4bfbaf6b64d9d98567c07f4496, type: 3}
+  - {fileID: 21300000, guid: f509d942d3345fa4b8905071233a2de1, type: 3}
+  - {fileID: 21300000, guid: 6fab2e41b572f0a40b157000d563ae39, type: 3}
+  - {fileID: 21300000, guid: 862028e620b4a834db59612219ad10a9, type: 3}
+  - {fileID: 21300000, guid: 5bcf3615b2fca6e4280280de392fc872, type: 3}
+  - {fileID: 21300000, guid: e45cc338543296b488e4b90a9b8d901d, type: 3}
+  - {fileID: 21300000, guid: 9842d39d068927c4297f415662d91fa0, type: 3}
+  - {fileID: 21300000, guid: 88bd2d71eb6026243b98857467510d85, type: 3}
+  - {fileID: 21300000, guid: 34e60477f62cbee4986eb4563ddaeba1, type: 3}
+  - {fileID: 21300000, guid: 4c38bd7d50526b742b691a31476c285e, type: 3}
+  - {fileID: 21300000, guid: 52335090761d9a041b3812e4846259e5, type: 3}
+  - {fileID: 21300000, guid: 968a49f1e7e427a459641ddf160e1e3a, type: 3}
+  - {fileID: 21300000, guid: 51353c263ddf8814983392b7da4e6c25, type: 3}
+  - {fileID: 21300000, guid: 213599f2b369d154ba5640ffe3e0e6d1, type: 3}
+  - {fileID: 21300000, guid: 6cf5fa37c41c03946bda978d7bb2c8b6, type: 3}
+  - {fileID: 21300000, guid: 38e32eb6e1722324ea17de877c2062e6, type: 3}
+  - {fileID: 21300000, guid: b5b8af679212ab14aa1413504a987d3f, type: 3}
+  - {fileID: 21300000, guid: 36e509ce62617364f895221b22a7295e, type: 3}
+  - {fileID: 21300000, guid: ed2c81e82bae3eb479e8ca45c9563558, type: 3}
+  - {fileID: 21300000, guid: 8cd115f8acc0f244c8fe8a7a28020090, type: 3}
+  - {fileID: 21300000, guid: 171e5a78e2199284eb00da9d102385f7, type: 3}
+  - {fileID: 21300000, guid: 2f74672ab36e74147a98fd8cd5c970de, type: 3}
+  - {fileID: 21300000, guid: 9ba41eab6b60de5448ee1c24406805cc, type: 3}
+  - {fileID: 21300000, guid: 284fa2e8e9c004f4e90dec705a7eb552, type: 3}
+  - {fileID: 21300000, guid: 7951a52a210ac144389b7b2c9d5aa7bd, type: 3}
+  - {fileID: 21300000, guid: ad91b0ddd31ff9a40aef6c54b87cb3b6, type: 3}
+  - {fileID: 21300000, guid: dc516297559c3914782e5e610c46640e, type: 3}
+  - {fileID: 21300000, guid: 7630e83e81c10694f833a5e055a5d651, type: 3}
+  - {fileID: 21300000, guid: fb66909068c26ed469626c851e89478f, type: 3}
+  - {fileID: 21300000, guid: 68e9027fbe357cb44b21d031d9d18a14, type: 3}
+  - {fileID: 21300000, guid: d4aba2375d796614e8140f072bcd9ea1, type: 3}
+  - {fileID: 21300000, guid: 6a61222e17e526248b4187b254dcd6ce, type: 3}
+  - {fileID: 21300000, guid: 3624356da4f43064aa5759b49ce7d6a7, type: 3}
+  - {fileID: 21300000, guid: cb87cdf8c06f82845bf5a55c2fa68c07, type: 3}
+  - {fileID: 21300000, guid: fd9dba0e213feb044a0c52f6f8e4b965, type: 3}
+  - {fileID: 21300000, guid: 31400b3a2d8c94b419089b59a11cf2cc, type: 3}
+  - {fileID: 21300000, guid: a4d921d9b63e9aa45bf6b7d0394b43d3, type: 3}
+  - {fileID: 21300000, guid: 5dc77025a3c9699448437e3def0e03d9, type: 3}
+  - {fileID: 21300000, guid: a94772a7aabbcea46ae38e42bf1d6481, type: 3}
+  - {fileID: 21300000, guid: 4559a80d53458304d99be6e5805f131e, type: 3}
+  - {fileID: 21300000, guid: d969cebc3defffd4eadfd2859b31f0d9, type: 3}
+  - {fileID: 21300000, guid: 6c2bdd0c51eb28e44abf1302eb1c3c16, type: 3}
+  - {fileID: 21300000, guid: 7d1cd2820c40c7f4283cb9e9fc377643, type: 3}
+  - {fileID: 21300000, guid: 12d9c2d9ac073984386845825a9a3085, type: 3}
+  - {fileID: 21300000, guid: c981b3f34c6d08e4d884995166acb578, type: 3}
+  - {fileID: 21300000, guid: 65c6c78ba610f5d439a2876395d22898, type: 3}
+  - {fileID: 21300000, guid: ac9f66a9c9b51a849996781d4233a33d, type: 3}
+  - {fileID: 21300000, guid: 4d85ab7da3832604aa675a0c7dad8e96, type: 3}
+  - {fileID: 21300000, guid: 960cafa4ffa798240b5a85b280367937, type: 3}
+  StageLights:
+  - {fileID: 23186522243507326}
+  - {fileID: 23075024491774536}
+  - {fileID: 23840684018528750}
+  StageColors:
+  - {fileID: 2100000, guid: 749e14367b376474bbc42fe38d74bb77, type: 2}
+  - {fileID: 2100000, guid: 194a75af8b444e740b130015de165464, type: 2}
 --- !u!114 &114068424058827532
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2124,6 +2210,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HighlightScale: {x: 1, y: 1, z: 1}
   OutlineAmount: 0
+--- !u!114 &114899956996025302
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1357071248244726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1675560866, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114911402850385120
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2193,7 +2290,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e2e0d9e8f70c1aa469c09268fa8ac5fb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8073228d6293fd547bf7b805c816f981, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
